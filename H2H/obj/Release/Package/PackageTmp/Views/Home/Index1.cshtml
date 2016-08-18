@@ -1,0 +1,475 @@
+﻿
+@{
+    ViewBag.Title = "Index1";
+    Layout = "~/Views/Shared/_mytemplate.cshtml";
+}
+
+
+<div class="slide" id="slide1">
+    <div id="slide1_bleu">
+        <div class="container_12">
+            <div class="grid_4 pull_1 ">
+                <div class="produits_3D"></div>
+            </div>
+            <div class="grid_6 push_6">
+                <div class="content">
+                    
+                    <p class="h2">presents the Neuronaute, a smart healthcare solution for the diagnosis and monitoring of epilepsy.</p>
+                    <div id="plus_phone" class="suivant">
+                        <a class="info">
+                            <div class="btn_suivant">Scroll down to learn more !</div>
+                        </a>
+                    </div>
+                    <div id="drapeau_fr">
+                        <a href="@Url.Content("~/Home/index")" class="info_temoin" >
+                            <div class="drapeau_fr"></div>
+                        </a>
+                    </div>
+                    <div id="drapeau_en">
+                        <a href="" class="info_temoin">
+                            <div class="drapeau_en"></div>
+                        </a>
+                    </div>
+                    <div class="press">
+                        <p>H2H raises 3 million Euros to finance next steps</p>
+
+                        <div id="communique_fr">
+                            <!---<p> Communiqué de presse en Français & Anglais </p> -->
+                            <a href="" title="pdf"><img class="top" src='@Url.Content("~/Content/mytemplate/")img/press_fr.png' alt="communiqué de presse" /></a>
+                        </div>
+                        <div id="communique_en">
+                            <a href="" title="pdf"><img class="top" src='@Url.Content("~/Content/mytemplate/")img/medatalab-press.png' alt="communiqué de presse" /></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="slide" id="slide2">
+    <div class="container_12 ">
+        <div class="grid_12">
+            <p class="h2"> EPILEPSY IN A FEW FIGURES</p>
+            <div class="titre_epi"></div>
+        </div>
+        <div class="grid_3  content">
+            <div id="imgchiffre" class="chiffre_img"></div>
+            <p class="h3">Epilepsy accounts for 0.5% of the global burden of disease, a measure combining early loss of life and lifetime with degraded health. Economic impacts are significant in terms of healthcare, premature mortality and loss of productivity.<p>
+                <hr>
+        </div>
+        <div class="grid_3  content">
+            <div id="imgchiffre" class="chiffre_img2"></div>
+            <p class="h3">In the United-­States, 2.2 millions patients are epileptic, of which only 60% receive adequate treatment. In Europe, there are 6 million epileptic patients, of which only 50% receive adequate treatment. A frequent problem is improper or incomplete diagnosis.<p>
+                <hr>
+        </div>
+        <div class="grid_3 content">
+            <div id="imgchiffre" class="chiffre_img3"></div>
+            <p class="h3">Recorded seizures are necessary to fine tune a diagnosis. Currently, the recording procedure requires hospitalization in a specially equipped hospital unit.  Recording usually lasts from 1 to 48 hours, but this duration is not always sufficient to record a seizure.<p>
+                <hr>
+        </div>
+        <div class="grid_3  content">
+            <div id="imgchiffre" class="chiffre_img4"></div>
+            <p class="h3">It’s the approximate waiting time for a pre-surgical diagnosis in some developed countries. Cur-rent systems are expensive, scar-cely available and require complete immobilization of the hospi-talized patient, which can be strenuous, particularly for children.<p>
+                <hr>
+        </div>
+    </div>
+</div>
+
+<div class="slide" id="slide3" class="section">
+    <div id="slide3_container">
+        <div class="front">
+            <div class="container_12">
+                <div class="grid_12">
+                    <p class="h2"> HOW DOES IT WORK ?</p>
+                    <p class="h4">The Internet of Things dedicated to healthcare</p>
+                </div>
+                <div class="grid_4 ">
+                    <div id="imgfonction" class="T_shirt_img"></div>
+                    <p class="h3">
+                        Smart clothing equipped with biometric sensors that records physiological characteristics.
+                    </p>
+                    <!---<div id="plus_tshirt" class="plus">
+                        <a class="info" >
+                             <div class="btn_plus">Contactez-nous pour + d'info</div>
+                             <div class="">
+                             </div>
+                         </a>
+                     </div>--->
+                </div>
+                <div class="connect"></div>
+                <div class="grid_4 ">
+                    <div id="imgfonction" class="phone_img"></div>
+                    <p class="h3">An innovative smartphone app that processes and analyses data originating from the smart clothing.</p>
+                    <!--- <div id="plus_phone" class="plus">
+                      <a class="info2" >
+                            <div class="btn_plus">Contactez-nous pour + d'info</div>
+                            <div class="">
+                            </div>
+                        </a>
+                    </div>--->
+                </div>
+                <div class="connect2"></div>
+                <div class="grid_4 ">
+                    <div id="imgfonction" class="cloud_img"></div>
+                    <p class="h3">
+                        A Cloud system that gathers data allowing in depth analysis and information sharing.
+                    </p>
+                    <div id="plus_cloud" class="plus">
+                        <a class="info3">
+                            <div class="btn_plus">Learn more</div>
+                            <div class="infobulle3">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="slide" id="slide4" class="section">
+    <div id="revolution">
+        <p class="h1"><strong>REVOLUTIONIZES <span>THE PATIENT’S LIFE</span></strong></p>
+        <div id="sous_titre"></div>
+    </div>
+    <div id="phone_enfant"></div>
+    <div id="phone_mum"></div>
+    <div id="enfant_lit"></div>
+    <div id="alert_phone"></div>
+    <div id="domicile">
+        <p class="h2">HOME MONITORING</p><p class="h3">The Neuronaute tracks physiological characteristics of the epileptic patient in real time. As soon as there is a sign of seizure identified, a warning can be triggered and the smartphone will be able to broadcast to listeners and care takers the proper procedure to follow.</p>
+
+        <p class="h3"><span>See their testimony :<span></p>
+    </div>
+    <div id="mummy"></div>
+    <div id="temoin1">
+        <a class="info_temoin">
+            <div class="temoignage1"></div>
+            <div class="infobulle_temoin">
+                <p class="h2">Testimony 1</p>
+                <p class="h3">"Isabelle has a 4 year old son. Her son has already suffered from two seizures. She has recently learned of the existence of SUDEP (Sudden Unexpected Death in EPilepsy) and she has been extremely worried since. She would be reassured to know that her son is monitored and that she would be warned in case of seizure."</p>
+            </div>
+        </a>
+    </div>
+    <div id="temoin2">
+        <a class="info_temoin">
+            <div class="temoignage2"></div>
+            <div class="infobulle_temoin">
+                <p class="h2">Testimony 2</p>
+                <p class="h3">"Anya had her first seizure at the age of 8 years old and a second one at the age of 18 years old. She didn’t pay much attention to it then. When she became a mom at the age of 24, every changed. She suffered from a major seizure while carrying her two month old son. Nowadays, Anya would like it if her close ones would know what to do if she has a seizure."</p>
+            </div>
+        </a>
+    </div>
+    <div id="temoin3">
+        <a class="info_temoin">
+            <div class="temoignage3"></div>
+            <div class="infobulle_temoin">
+                <p class="h2">Testimony 3</p>
+                <p class="h3">"David is a policeman in an average size town. Not so long ago, his 6 year old daugh-ter was spending the week-end at her grandparents when she suddenly lost consci-ousness and fell to the ground. After a trip to the emergency room and hospitaliza-tion, his daughter was diagnosed. Now David would like a monitoring system in order to reassure teachers and grandparents when they are taking care of his daughter."</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="slide" id="slide5">
+    <div id="revolution">
+        <p class="h1"><strong>REVOLUTIONIZES <span>THE DIAGNOSIS</span></strong></p>
+        <div id="sous_titre2"></div>
+    </div>
+    <div id="phone_cloud"></div>
+    <div id="cloud_diag"></div>
+    <div id="nuage_encours"></div>
+    <div id="docteur"></div>
+    <div id="diagnostic">
+        <p class="h2">ADJUSTING A MEDICAL TREATMENT</p><p class="h3">Data shared through the cloud can be accessed at any time by the doctor in charge of the patient. The doctor can use the data for an optimized diagnosis and can view the response to a medical treatment and adjust it accordingly in real time.</p>
+    </div>
+</div>
+
+<div class="slide" id="slide6">
+    <div id="revolution">
+        <p class="h1"><strong>REVOLUTIONIZES <span>MEDICAL RESEARCH</span></strong></p>
+        <div id="sous_titre3"></div>
+    </div>
+    <div id="cloud_search"></div>
+    <div id="laborantin"></div>
+    <div id="nuee_cloud"></div>
+    <div id="search">
+        <p class="h2">BIG DATA</p>
+        <p class="h3">H2H wishes to help the medical research community better understand epilepsy in order to better treat it. Once anonymized and all links to the patient removed, gathered data will be shared with researchers from the Brain and Spine Institute (ICM). This is a decisive step to improve research on epilepsy and the future of diagnostics.</p>
+    </div>
+</div>
+
+
+
+
+<div class="slide" id="slide7">
+    <div class="container_12">
+        <div class="grid_12">
+            <p class="h2"> A LITTLE HELLO</p>
+        </div>
+        <div class="grid_6 content" id="contactform">
+            <p class="h7">CONTACT US</p>
+            <form method="post">
+                <div class="line">
+                    <input type="text" id="prenom" class="input-text-198 input-text-198-error" name="prenom" value="First Name" alt="Prénom" />
+                    <input type="text" id="nom" class="input-text-217 input-text-217-error" name="nom" value="Last Name" alt="Nom" />
+                    <div class="clear"></div>
+                </div>
+                <div class="line">
+                    <input type="text" id="mail" class="input-text-445 input-text-445-error" name="mail" value="E-mail" alt="E-mail" required />
+                    <div class="clear"></div>
+                </div>
+                <div class="line">
+                    <input type="text" id="objet" class="input-text-445 input-text-445-error" name="objet" value="Title" alt="Objet" />
+                    <div class="clear"></div>
+                </div>
+                <div class="line">
+                    <textarea alt="Ecrivez ici votre message" id="message" class="textarea textarea-error" name="message">Write your message here</textarea>
+                    <div class="clear"></div>
+                </div>
+                <div class="line">
+                    <img class="msg-error" src="@Url.Content("~/Content/mytemplate/")img/msg-error_en.png" alt="Merci de remplir les champs notés x" />
+                    <div class="clear"></div>
+                </div>
+                <div class="line">
+                    <input type="submit" value="Envoyer" id="envoyer" />
+                    <div class="clear"></div>
+                </div>
+            </form>
+            <div class="grid_2 content2" id="contactform">
+                <a href="https://www.facebook.com/h2h2016/"><img src="@Url.Content("~/Content/mytemplate/")img/facebook.png" /></a>
+                <a href="http://www.jonquieres-st-vincent.com/wp-content/uploads/2015/09/site-construction-600x2001.gif"><img src="@Url.Content("~/Content/mytemplate/")img/twitt.png" /></a>
+                <a href="http://www.jonquieres-st-vincent.com/wp-content/uploads/2015/09/site-construction-600x2001.gif"><img src="@Url.Content("~/Content/mytemplate/")img/gplus.png" /></a>
+            </div>
+            <div class="grid_4 content3" id="contactform">
+                <p class="h9 ">Interested on getting project updates </br>follow-us on Facebook, Twitter and Google+</p>
+            </div>
+        </div>
+        <div class="grid_5 content" id=" contactliens">
+            <p class="h7">LOCATE US</p>
+            <p class="h5">H2H <br />ESPRIT <br /> 18 Rue de l'Usine, Tunis 2035 <br /> 2083 Pôle Technologique - El Ghazala </p>
+            <div id="btngoogle">
+                <a href="https://www.google.tn/maps/place/ESPRIT/36.8983963,10.1875433,17z/data=!3m1!4b1!4m2!3m1!1s0x12e2cb7454c6ed51:0x683b3ab5565cd357" TARGET='_blank'><img class="btnplanmap" src="@Url.Content("~/Content/mytemplate/")img/btngooglemaps.png" /></a>
+            </div>
+            <div id="btngoogle">
+                <a href="@Url.Content("~/Content/mytemplate/")img/Organisateur.pdf" TARGET='_blank'><img class="btnplanmap" src="@Url.Content("~/Content/mytemplate/")img/btnaccesicm.png" /></a>
+            </div>
+            <p class="h7" style=" margin-top 40px;">THE TEAM</p>
+            <p class="h5">
+                H2H is composed of a diverse group of talented individuals (doctors, engineers, designers, …). All dynamic, friendly, motivated and very skilled. If this description also applies to you and you have skills linked to our solutions, (Cloud, Mobile app, Signal processing, for instance) don’t hesitate to contact us.
+            </p>
+            <br />
+           
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<div id="footer">
+
+    <div class="container_12">
+        <div class="grid_2">
+            <img class="logo" src="@Url.Content("~/Content/mytemplate/")img/l_fin.png" width="250px">
+        </div>
+        <div class="grid_9 content">
+            <p class="h8"> Graphics, website design and web developpement H2H . © H2H 2016  All rights reserved. </p>
+
+            <div>
+                <a id="return" href="#"></a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script type="text/javascript" src="@Url.Content("~/Content/mytemplate/")js/greensock/TweenMax.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+<script type="text/javascript">
+
+$('a[href^="#"]').click(function(){
+    var the_id = $(this).attr("href");
+    $('html, body').animate({
+        scrollTop:$(the_id).offset().top
+    }, 'slow');
+    return false;
+});
+
+
+
+</script>
+
+<script src="@Url.Content("~/Content/mytemplate/")js/jquery.lettering-0.6.1.min.js"></script>
+<script src="@Url.Content("~/Content/mytemplate/")js/jquery.superscrollorama.js"></script>
+<script>
+	$(window).resize(function () {
+		controller.triggerCheckAnim(immediately);
+	});
+	$(document).ready(function() {
+
+
+
+
+		var controller=$.superscrollorama(
+			{triggerAtCenter: false,
+			playoutAnimations: true});
+
+		controller.pin($("#slide2"),500);
+		controller.pin($("#slide3"),500);
+
+		controller.addTween("#slide4",
+				TweenMax.to($('#marque_page'), .5,
+					{css:{left:230, top:100, rotation: -90}}),
+				0,
+				-1
+			);
+
+		controller.addTween("#slide4",
+				TweenMax.to($('#logo'), .5,
+					{css:{left:0, top:-10, rotation: 90}}),
+				0,
+				-1
+			);
+
+
+		controller.pin($("#slide4"),2000, {
+
+			anim: (new TimelineLite())
+			.append(
+				TweenMax.from($('#enfant_lit'), 0.5,
+					{})
+			)
+			.append([
+				TweenMax.to($('#enfant_lit'), 0.5,
+					{css:{opacity:0}}),
+				TweenMax.to($('#alert_phone'), 0.5,
+					{css:{opacity:1}})
+			])
+			.append(
+				TweenMax.from($('#mummy'), 0.5,
+					{css:{left:300,opacity:0}})
+			)
+
+
+			.append(
+				TweenMax.to($('#phone_enfant'), 0.5,
+					{css:{opacity:0}})
+			)
+			.append(
+				TweenMax.to($('#phone_enfant'), 0.5)
+			)
+			.append([
+				TweenMax.to($('#phone_enfant'), 0.5,
+					{css:{opacity:1}}),
+				TweenMax.to($('#phone_mum'), 0.5,
+					{css:{opacity:0}})
+			])
+
+
+		});
+		controller.pin($("#phone_enfant"),1200, {
+			offset: -170,
+			anim: (new TimelineLite())
+				.append(
+					TweenMax.to($('#phone_enfant'), 1)
+				)
+				.append(
+					TweenMax.to($('#phone_enfant'), 0.1,
+						{css:{opacity:0}})
+				)
+
+
+		});
+
+
+		controller.pin($("#slide5"),2000,{
+			anim: (new TimelineLite())
+				.append([
+					TweenMax.to($('#connect3'), .5,
+					{css:{opacity:0}}),
+					TweenMax.from($('#phone_cloud'), 0.001,
+						{css:{opacity:0}})
+				])
+
+				.append([
+					TweenMax.to($('#nuage_encours'), .5,
+						{css:{opacity:0}})
+				])
+
+				.append(
+					TweenMax.from($('#docteur'), .5,
+						{css:{opacity:0,left:1200}})
+				)
+				.append(
+					TweenMax.to($('#diagnostic'), .5,
+						{css:{opacity:1}})
+				)
+
+		});
+		controller.pin($("#nuee_cloud"),390, {
+			offset: -90
+
+		});
+
+		controller.pin($("#slide6"),1000,{
+			anim: (new TimelineLite())
+				.append(
+					TweenMax.to($('#search'), .5,
+					{css:{opacity:1}})
+				)
+
+				.append(
+					TweenMax.from($('#laborantin'), .5,
+						{css:{left:-200,opacity:0}})
+				)
+
+		});
+		controller.addTween("#slide7",
+				TweenMax.fromTo($('#marque_page'), .5,
+					{css:{opacity:1}, immediateRender:true},
+	        		{css:{opacity:0}})
+
+			);
+
+
+	});
+
+
+
+
+
+</script>
+
+
+<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-2821890-9']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+		$(document).ready(function(){
+
+$("#info_donation").click(function(){
+console.log(" A CLIQUER");
+var yInfo = $(window).scrollTop(); //your current y position on the page
+$(window).scrollTop(yInfo+20500);
+});
+});
+
+
+
+</script>

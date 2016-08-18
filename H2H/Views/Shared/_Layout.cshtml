@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+
+    @*Template Header Files*@
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>H2H</title>
+
+    <meta name='description' content='H2H présente le Neuronaute, une solution de santé intelligente pour le suivi et le diagnostic de l épilepsie.'>
+    <meta name='keywords' content='H2H, site, epilepsie, epilepsy, diagnostic, domicile, traitement, données de masses, big data, revolutionne, vie patient, recherche, medecine, temoignage'>
+
+    <meta name="copyright" content="BioSerenity" />
+
+    <link rel="stylesheet" href="@Url.Content("~/Content/mytemplate/")style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/mytemplate/")960.css" type="text/css" media="screen" />
+    <link rel="icon" href="@Url.Content("~/Content/mytemplate/")favicon.ico" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/mytemplate/")css/normalize.css" type="text/css">
+
+
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:300,400' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="@Url.Content("~/Content/mytemplate/")js/jquery.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/mytemplate/")js/jquery.easing.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/mytemplate/")js/main.js"></script>
+    <script type="text/javascript">
+	if (navigator.userAgent.match(/(android|iphone|ipad|blackberry|symbian|symbianos|symbos|netfront|model-orange|javaplatform|iemobile|windows phone|samsung|htc|opera mobile|opera mobi|opera mini|presto|huawei|blazer|bolt|doris|fennec|gobrowser|iris|maemo browser|mib|cldc|minimo|semc-browser|skyfire|teashark|teleca|uzard|uzardweb|meego|nokia|bb10|playbook)/gi)) {
+    if ( ((screen.width  >= 480) && (screen.height >= 800)) || ((screen.width  >= 800) && (screen.height >= 480)) || navigator.userAgent.match(/ipad/gi) ) {
+        window.location = "Bioserenity_tablette.html"
+    } else {
+        window.location = "Bioserenity_tablette.html"
+    }
+}
+    </script>
+
+</head>
+<body>
+
+    <!--[if lt IE 7]>
+                <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <![endif]-->
+
+    @*Template Header Files
+
+    <div id="marque_page">
+        <div id="logo"></div>
+        <div id="fleche"></div>
+
+    </div>
+    *@
+    <!-- Start of slide1 content -->
+
+
+    <div class="slide" id="slide1">
+        <div id="slide1_bleu">
+            <div class="container_12">
+                <div class="grid_4 pull_1">
+                    <div class="produits_3D"></div>
+                </div>
+                <div class="grid_6 push_6">
+                    <div class="content">
+                        <div class="logo"></div>
+                        <p class="h2">présente le Neuronaute, une solution de santé intelligente pour le suivi et le diagnostic de l'épilepsie.</p>
+                        <div id="plus_phone" class="suivant">
+                            <a class="info">
+                                <div class="btn_suivant">Glisser la page vers le bas !</div>
+                            </a>
+                        </div>
+                        <div id="drapeau_fr">
+                            <a href="" class="info_temoin">
+                                <div class="drapeau_fr"></div>
+                            </a>
+                        </div>
+                        <div id="drapeau_en">
+                            <a href="http://www.bioserenity.com/en.html" class="info_temoin">
+                                <div class="drapeau_en"></div>
+                            </a>
+                        </div>
+                        <div class="press">
+                            <p>H2H lève 3millions d’Euros pour financer son développement</p>
+
+                            <div id="communique_fr">
+                                <!---<p> Communiqué de presse en Français & Anglais </p> -->
+                                <a href="@Url.Content("~/Content/mytemplate/")img/press_fr_2015-06-04_Bioserenity.pdf" title="pdf"><img class="top" src='@Url.Content("~/Content/mytemplate/")img/press_fr.png' alt="communiqué de presse" /></a>
+                            </div>
+                            <div id="communique_en">
+                                <a href="@Url.Content("~/Content/mytemplate/")img/dossier-presse-medatalab.pdf" title="pdf"><img class="top" src='@Url.Content("~/Content/mytemplate/")img/medatalab-press.png' alt="communiqué de presse" /></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+
+</body>
+</html>

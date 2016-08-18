@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="h2h-esprit" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\bechir\\Desktop\\Zahra\ Bechir\\H2H\\H2H\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\bechir\\Desktop\\Zahra\ Bechir\\H2H\\H2H\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>
